@@ -1,0 +1,103 @@
+body{
+	margin: 0;
+	padding: 0;}
+
+.corps_humain{
+display: inline-block;
+text-align: center;
+border: solid;
+margin-left: 33%;
+margin-right: 33%;
+position: relative;
+
+background-color: green;
+width: 33%;
+z-index: auto;}
+
+h1{text-align: center;}
+
+img{position: relative;
+text-align: center;}
+
+.texte{
+	position: fixed;
+	background-color: blue;
+	width: 20%;
+	height: 80%;
+	right: 20%;
+	top: 18%;
+	color: white;
+}
+
+.epaule{
+	width: 40px;
+	height: 40px;
+	background: #00000078;
+	border-radius: 50%;
+ 	position:absolute;
+ 	display: block;
+	top: 28%; 
+	left: 36%;
+	z-index: 1;}
+
+.coude{
+	width: 40px;
+	height: 40px;
+	background: #00000078;
+	border-radius: 50%;
+ 
+ 	position:absolute;
+ 	display: block;
+	top: 40%;
+	left: 57%;
+	z-index: 1;}
+
+.poignet{
+	width: 40px;
+	height: 40px;
+	background: #00000078;
+	border-radius: 50%;
+ 
+ 	position:absolute;
+ 	display: block;
+  top: 53%; 
+ left: 35%;
+z-index: 1;}
+
+.hanche{
+	width: 40px;
+	height: 40px;
+	background: #00000078;
+	border-radius: 50%;
+ 
+ 	position:absolute;
+ 	display: block;
+  top: 56%; 
+ left: 52%;
+z-index: 1;}
+
+
+.genou{
+	width: 40px;
+	height: 40px;
+	background: #00000078;
+	border-radius: 50%;
+ 
+ 	position:absolute;
+ 	display: block;
+  top: 73%; 
+ left: 42%;
+z-index: 1;}
+
+
+.cheville{
+	width: 40px;
+	height: 40px;
+	background: #00000078;
+	border-radius: 50%;
+ 
+ 	position:absolute;
+ 	display: block;
+  top: 89%; 
+ left: 51%;
+z-index: 1;}
